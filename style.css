@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@100&display=swap');
+
+body {
+    box-sizing: border-box;
+}
+
+.container {
+    display:flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.imagem-esq {
+    
+    margin: auto;
+}
+
+
+.esq {
+    position: relative;
+    background-image: url('./img/photo_2022-04-22_13-17-25.jpg');
+    width: 50%;
+    height: 100vh; 
+}
+
+#rucu {
+    position: absolute;
+    width: 110px;
+    padding: 0;
+    top: 125px;
+    right: 95px;
+    filter: drop-shadow(5px 5px 5px #222);
+}
+#rucu2 {
+    position: absolute;
+    width: 110px;
+    padding: 0;
+    top: 25px;
+    left: 25px;
+    filter: drop-shadow(5px 5px 5px rgba(34, 34, 34, 0.662));
+}
+#rucu3 {
+    position: absolute;
+    right: 80px;
+    bottom: 70px;
+    width: 110px;
+    padding: 0;
+    filter: drop-shadow(5px 5px 5px rgba(34, 34, 34, 0.662));
+}
+
+#manje {
+    position: absolute;
+    right: 20px;
+    bottom: 220px;
+    width: 135px;
+    filter: drop-shadow(5px 5px 5px rgba(34, 34, 34, 0.662));
+}
+
+#tomato {
+    position: absolute;
+    left: 50px;
+    bottom: 60px;
+    width: 155px;
+    filter: drop-shadow(5px 5px 5px rgba(34, 34, 34, 0.662));
+}
+
+#fork {
+    position: absolute;
+    right: 20px;
+    bottom: 220px;
+    width: 350px;
+    height: 290px;
+    padding: 0%;
+    filter: drop-shadow(5px 5px 5px #222);
+}
+#pizza17 {
+    position: absolute;
+    width: 450px;
+    bottom: 150px;
+    left: 45px;
+    padding: 0%;
+    filter: drop-shadow(15px 15px 15px #222);
+}
+
+
+.dir {
+    position: relative;
+    background-color: rgb(231, 225, 217);
+    width: 50%;
+}
+
+.texto {
+    position: absolute;
+    top: 250px;
+    left: 70px;
+    width: 250px;
+    padding: 25px;
+}
+
+.texto p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.texto h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+}
+
+#pedido {
+    padding: 10px;
+}
